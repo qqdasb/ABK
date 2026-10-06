@@ -31,9 +31,9 @@ class KernelWorkflowRegressionTests(unittest.TestCase):
 
     def test_development_refs_are_reachable_successful_main_builds(self):
         expected = {
-            "OFFICIAL_DEV_REF": "33d0c9205df47b6b1b61c25c13afa164b88871d1",
-            "SUKISU_DEV_REF": "9fbe8fe8ca90c62c259c5894bf96d02ac31209b9",
-            "RESUKISU_DEV_REF": "246d3e52e667cb72ce8f70c93b70d3b42b100b76",
+            "OFFICIAL_DEV_REF": "08a3b087e49227c8a6731c5f1114998b5e25255b",
+            "SUKISU_DEV_REF": "cf87e3f4ddd3f6e5464d85acf56aaa6950e70841",
+            "RESUKISU_DEV_REF": "94dd3c93c2053a84fd752df6eb85db99b7d70ab8",
         }
         for variable, sha in expected.items():
             with self.subTest(variable=variable):
